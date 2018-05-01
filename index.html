@@ -28,7 +28,13 @@
          representan con la etiqueta aside-->
     <aside id="featured" class="body">
       <article>
-        <h2>Videos del cruso programación web 1</h2>       
+        <h2>Videos del cruso programación web 1</h2>
+	       
+	    <?php
+             include  ("contador.php");
+		echo "HOLA mundo en PHP ";
+             contador();
+            ?>
       </article>
     </aside>
 
@@ -70,12 +76,7 @@
     <!-- Contenido del pie de pagina con información del autor-->
     <footer id="contentinfo" class="body">
       <!-- Contenido de acerca de nosotros-->
-	    
-	    <?php
-             include  ("contador.php");
-		echo "HOLA mundo en PHP ";
-             contador();
-            ?>
+	   
 <h2 align="middle" >Autor: Cristian Urrego</h2>
 <p align="middle"> <strong> Universidad Nacional Abierta y a Distancia UNAD - Unidad 1 y 2: Fase de Construcción - Crear un OVI en formato WEB con HTML5 y CSS3</p>
     </footer>
